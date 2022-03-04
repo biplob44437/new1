@@ -1,0 +1,284 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* defoult css  */
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    padding: 12px 29px;
+    border-radius: 24px;
+    background-color: whitesmoke;
+    color: #000;
+    border: 1px solid #792929;
+  }
+
+body{
+  overflow-x: hidden;
+}
+  /* defoult css end  */
+  /* baner css start  */
+.container-fluid{
+max-width:90%;
+}
+body h1,h2,h3,h4,h5,h6,p,a,span{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-txt{
+  margin-top: 70px;
+}
+.banner-txt h1{
+  color: #000;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 41px;
+}
+.banner-txt h3{
+  color: #fa65b1;
+
+
+}
+.banner-txt p{
+  color: #b8baba;
+  margin-bottom: 41px;
+}
+
+.banner-txt{}
+/* banner css end  */
+/* about css start  */
+
+.mediya section{
+  margin-top: 100px;
+}
+.about-txt{ 
+  margin-top: 50px;
+}
+.about-txt h1{
+  color: #2a2a2a;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.about-txt  h1 span{
+  color: #726ae3;
+}
+.about-txt h4{
+  font-size: 15px;
+  font-weight: 700;
+  color: #726ae3;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.about-txt p{
+  color: #b8baba;
+}
+ 
+/* about css end  */
+/* service css start  */
+
+.service-heder{}
+.service-heder h6{
+  color: #726ae3;
+}
+.service-heder  h2{
+font-size: 50px;
+}
+.service-heder  span{
+color: #726ae3;
+}
+
+.service-card{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 183px;
+  height: 158px;
+  padding: 26px;
+  border-radius: 10px;
+}
+/* service css end */
+/* sep css sstarrt  */
+.seo-section{
+  background: url(https://blogger.googleusercontent.com/img/a/AVvXsEg4AmAmoebKDCaNtE98qzi-btelzCpJ9iEBoH7xAVqGU_T28IJQrCALWbSdnD7W-nWhl7sxaD-lb0qL1LctKYYwp5vTMJj7RzidOUN-fVzZm4q8TEdlQrXGeLMAJeO7_T3PdFYYzIJx03HJZnIDO5xZ-f4uC3aZ8K-2HJ513th7IYL8j53vDOz0nF2jMw=s1600) no-repeat center;
+height: 400px;
+background-size: cover;
+}
+
+input {
+  width: 26%;
+  height: 62px;
+  margin-top: 65px;
+  margin-left: -6px;
+  border-radius: px;
+}
+.btn.defoult-btn.btn-warning.btn-lg.px-4.text-white.b {
+  width: 28%;
+  height: 61px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  outline: none;
+  border: none;
+  margin-left: -10px;
+  background-color: #726ae3;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 0px;
+
+}
+.seo-text{}
+.seo-text h3{
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+}
+.seo-text h6{
+  color: #fff;
+  font-weight: 700;
+}
+/* sevic section  end  */
+
+.card-img-top{
+  width: 600px;
+  height: 600px;
+}
+.card-body{
+  width: 600px;
+
+}
+
+/*  */
+/*progext css start   */
+.progect-img text {
+ 
+}
+.progect-img img{
+  width: 700px;
+}
+.blog-1 img img{
+  border-radius: 20px;
+}
+.progext-text{
+  margin-top: 30px;
+}
+.progext-text a{}
+.progext-text h5 {
+  margin-bottom: 32px;
+  font-size: 28px;
+  margin-top: 113px;
+}
+.progext-text p{
+  margin-bottom: 30px;
+}
+
+/* progect css end  */
+
+/* contact css start  */
+form {
+  margin-top: -56px;
+}
+.btn.btn-danger.btn-circle.mb-3.py-3 {
+  padding: 1p;
+  width: 100;
+  display: inherit;
+  border-radius: 6px;
+  margin-left: -6px;
+  margin-top: 38px;
+}
+.btn.btn-danger.btn-circle.mb-3.py-3:hover{
+  background-color: #726ae3;
+  border-color: #726ae3;
+}
+
+.foter{
+background-color: #000;
+
+}
+
+
+
+
+/* responsive css */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .service-card {
+    background: #fffefd;
+  }
+
+  .service-card {
+    width: 100%;
+ 
+  }
+  .text-muted {
+  
+    color: #6a8b67 !important;
+  }
+  .mw-100.mt-4.service-img {
+    width: 100%;
+  }
+  .btn.defoult-btn.btn-warning.btn-lg.px-4.text-white.b {
+
+   
+    margin-left: -5px;
+ 
+    margin-top: -3px;
+  }
+  element {
+
+  }
+  .seo-section {
+      background-size: cover;
+  
+  }
+  
+element {
+
+}
+.rounded {
+
+    border-radius: .25rem !important;
+    width: 100%;
+
+}
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .banner-txt h1 {
+   
+    font-size: 29px;
+  }
+  .banner-txt h3 {
+    color: #fa65b1;
+    font-size: 16px;
+  }
+  .banner-txt p {
+    color: #6a8b67;
+    margin-bottom: 41px;
+  }
+  .about-txt h1 {
+    font-size: 28px;
+  }
+  .about-txt p {
+    color: #6a8b67;
+  }
+  .service-heder h2 {
+    font-size: 29px;
+  }
+  .seo-text h3 {
+  
+    font-size: 32px;
+  }
+  .seo-text h6 {
+    font-size: 13px;
+  }
+}
+
